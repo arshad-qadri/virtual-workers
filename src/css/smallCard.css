@@ -1,0 +1,33 @@
+.smCard {
+  width: 150px;
+  height: 70px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.smCard p {
+  font-size: 0.7em;
+  color: gray;
+}
+.smCard .smCardIcon {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 1.1em;
+  position: relative;
+}
+
+.smCard .smCardIcon::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.082);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(300deg);
+  transform-origin: center;
+  top: 15px;
+}

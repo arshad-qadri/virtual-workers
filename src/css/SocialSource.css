@@ -1,0 +1,29 @@
+.SocialSource {
+  width: 100%;
+  height: 300px;
+  background: #fff;
+  border-radius: 3px;
+}
+.SocialSource .face {
+  width: 40px;
+  height: 40px;
+  background: #e2e2e2;
+  border-radius: 50%;
+}
+.SocialSource .icons .icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SocialSource .icons:nth-child(1) .icon {
+  background-color: #4267b2;
+}
+.SocialSource .icons:nth-child(2) .icon {
+  background-color: #1da1f2;
+}
+.SocialSource .icons:nth-child(3) .icon {
+  background-color: #bc2a8d;
+}

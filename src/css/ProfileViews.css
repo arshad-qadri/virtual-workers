@@ -1,0 +1,33 @@
+.ProfileViews {
+  width: 53vw;
+  height: 43vh;
+  background: #fff;
+  margin-right: 90px;
+  margin-top: 45px;
+  border-radius: 3px;
+}
+.ProfileViews input,
+.ProfileViews button {
+  width: 40px;
+  font-size: 0.6em;
+  height: 20px;
+  border: 1px solid gray;
+}
+.ProfileViews input {
+  border-right: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.ProfileViews input:focus {
+  outline: none;
+}
+.ProfileViews button {
+  font-size: 0.6em;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.ProfileViews .ProfileViewsLeft p {
+  font-size: 0.8em;
+  color: gray;
+  margin-top: 30px;
+}

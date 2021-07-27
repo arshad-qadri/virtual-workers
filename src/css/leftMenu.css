@@ -1,0 +1,36 @@
+.leftmenu {
+  height: auto;
+  background: rgb(12, 12, 22);
+}
+.logo {
+  font-size: 1.2em;
+}
+.menu p {
+  font-size: 0.8em;
+}
+.menu ul li {
+  display: block;
+  margin-left: -25px;
+
+  /* display: none; */
+}
+.menu ul li:nth-child(4),
+.menu ul li:nth-child(5),
+.menu ul li:nth-child(7),
+.menu ul li:nth-child(8),
+.menu ul li:nth-child(10),
+.menu ul li:nth-child(11),
+.menu ul li:nth-child(12) {
+  margin-left: 0;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 0.8em;
+}
+.menu ul li .icons {
+  font-size: 1.5em;
+}
+.menu ul li a:hover {
+  color: #fff;
+}

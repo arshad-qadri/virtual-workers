@@ -1,0 +1,29 @@
+.profileCompleted {
+  height: 190px;
+  background: #fff;
+  border-radius: 3px;
+  font-size: 0.78em;
+}
+
+.profileCompleted h5 {
+  font-size: 0.9em;
+  font-weight: 800;
+}
+.profileCompleted p:last-child {
+  font-size: 0.78em;
+}
+
+.profileCompleted .detail button {
+  font-size: 0.8em;
+}
+.profileCompleted .perce span:nth-child(1) {
+  font-size: 4em;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.158);
+}
+.profileCompleted .perce span:nth-child(2) {
+  color: gray;
+}
+.profileCompleted .detail p {
+  color: gray;
+}

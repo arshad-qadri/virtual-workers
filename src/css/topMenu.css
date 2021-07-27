@@ -1,0 +1,49 @@
+.topMenu {
+  height: 8vh;
+  background: #fff;
+}
+.topMenu .search form {
+  margin-left: 10px;
+  width: auto;
+  height: 35px;
+  position: relative;
+}
+.topMenu .search form .searchIcon {
+  position: absolute;
+  left: 8px;
+  top: calc(50% - 8px);
+  font-size: 1.1em;
+  margin-left: 4px;
+}
+.topMenu .search form input {
+  border-radius: 20px;
+  padding-left: 35px;
+  width: 200px;
+  border: none;
+  background: #e2e2e2;
+}
+.topRight {
+  width: 25vw;
+}
+.topRight img {
+  width: 30px;
+}
+.topRight .topRicon {
+  font-size: 1.1em;
+}
+
+.topRight .notification {
+  position: relative;
+}
+.topRight .notification span {
+  position: absolute;
+  font-size: 0.6em;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 13px;
+  color: #fff;
+  right: 0;
+  top: -2px;
+}

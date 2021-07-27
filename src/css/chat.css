@@ -1,0 +1,106 @@
+.chat {
+  background: #fff;
+  border-radius: 3px;
+  height: 300px;
+}
+
+.chat .top {
+  height: 60px;
+  width: 100%;
+  /* background: #000; */
+}
+.chat .top p {
+  position: relative;
+}
+.chat .top p::before {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: green;
+  border-radius: 50%;
+  left: -10px;
+  top: calc(50% - 4px);
+}
+.chat .top .cIcon {
+  width: 30px;
+  height: 30px;
+  background: aliceblue;
+  margin-right: 10px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+}
+.chat .today {
+  width: 40%;
+  height: 1px;
+  background-color: #bbb9b9;
+}
+.chat .chat1 {
+  width: 100px;
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+}
+.chat .chat1,
+.chat .chat2 {
+  background-color: aliceblue;
+  height: 70px;
+  position: relative;
+}
+.chat .chat2 {
+  width: auto;
+  text-align: right;
+  margin-top: 15px;
+  float: right;
+  border-radius: 5px;
+  border-bottom-right-radius: 0;
+}
+.chat .chat1 .dots1 {
+  position: absolute;
+  right: -10px;
+  top: 0;
+}
+
+.chat .chat1 .dots1 .dot,
+.chat .chat2 .dots2 .dot {
+  width: 2px;
+  height: 2px;
+  background: gray;
+  margin: 2px 0 0 0;
+}
+.chat .chat2 .dots2 {
+  position: absolute;
+  left: -10px;
+  top: 0;
+}
+
+.chat .chatIpn input {
+  width: 220px;
+  height: 25px;
+  border: 0;
+  border-radius: 3px;
+  background: aliceblue;
+  font-size: 0.7em;
+  padding-left: 10px;
+}
+.chat .chatIpn input:focus {
+  outline: none;
+}
+.chat .chatIpn button {
+  height: 25px;
+  font-size: 0.7em;
+  width: 80px;
+  line-height: 15px;
+}
+.chat .chatIpn {
+  position: relative;
+}
+.chat .chatIpn .emojis {
+  position: absolute;
+  right: 33%;
+  font-size: 0.8em;
+}
+.chat .chatIpn .emoji {
+  margin-right: 5px;
+  color: #0b5ed7;
+}
